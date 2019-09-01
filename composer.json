@@ -1,0 +1,26 @@
+{
+    "name": "theo-alex/calculator",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "description": "A class that provides commonly performed calculations",
+    "keywords": ["calculator", "gcf", "lcd"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex Theobald",
+            "email": "alex.theobald.dev@gmail.com"
+        }
+    ],
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "theoAlex\\Calculator\\": "src/"
+        }
+    },
+    "require": {
+        "phpdocumentor/phpdocumentor": "2.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8"
+    }
+}
